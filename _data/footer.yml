@@ -5,14 +5,11 @@
 
 main:
   social:
-    - title: "Pinterest"
-      icon: "fab fa-pinterest"
-      url: "https://www.pinterest.com/"
     - title: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://instagram.com/"
-    - title: "Dribbble"
+      url: ""
+    - title: ""
       icon: "fab fa-dribbble"
-      url: "https://dribbble.com/"
+      url: ""
   text1: "E: test@gmail.com"
   text2: "T: +?"
