@@ -1,0 +1,128 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### About us [ about ]
+about:
+  image: "assets/img/man2.jpg"
+  text: "<p>Hello! We're AleDan audio.</p>
+  We specialise in all things audio post-production, from dialogue editing and foley to sound design and mixing.</p>
+  <p>With a combined knowledge of ten years in the industry, we can elevate the sound quality of your projects.</p>"
+
+### Services [ services ]
+services:
+  title: "Services"
+  items:
+    - icon: "fas fa-music"
+      name: "Foley"
+      text: "Modern and mobile-ready website that will help you reach all of your marketing."
+
+    - icon: "fas fa-music"
+      name: "Sound design"
+      text: "Music copying, writing, creating, transcription, arranging and services."
+
+    - icon: "fas fa-music"
+      name: "Dialogue editing and restoration"
+      text: "Advertising services include television, radio, print, mail, and web apps."
+
+    - icon: "fas fa-music"
+      name: "Mix and mastering"
+      text: "Developing memorable and unique mobile android, ios and video games."
+
+
+### Skills [ skills ]
+skills:
+  columns:
+
+    - type: "dotted" #skills progress type - default, dotted, circles, list
+      title: "Languages Skills"
+      text: <p>Take advantage of our billingual team.<br>
+       We speak English and Spanish!</p>
+      items:
+        - label: "English (native)"
+          value: "100" #0-100 progress in %
+
+        - label: "Spanish (native)"
+          value: "100" #0-100 progress in %
+
+    ###- type: "default" #skills progress type - default, dotted, circles, list
+    ###- type: "circles" #skills progress type - default, dotted, circles, list
+    ###- type: "list" #skills progress type - default, dotted, circles, list
+
+team:
+  title: "The team"
+  items:
+    - image: "assets/img/team/team1.jpg"
+      name: "Alejandro Calce"
+      role: "role?"
+      ###social:
+      ###  - url: "https://www.pinterest.com/"
+      ###    icon: "fab fa-pinterest"
+      ###  - url: "https://www.instagram.com/"
+      ###    icon: "fab fa-instagram"
+      ###  - url: "https://dribbble.com/"
+      ###    icon: "fab fa-dribbble"
+
+    - image: "assets/img/team/team2.jpg"
+      name: "Dan Rendel"
+      role: "role?"
+      social:
+       - url: "https://www.imdb.com/name/nm7995323/"
+          icon: "fab fa-imdb"
+      ###  - url: "https://www.instagram.com/"
+      ###    icon: "fab fa-instagram"
+      ###  - url: "https://dribbble.com/"
+      ###    icon: "fab fa-dribbble"
+
+### Testimonials [ testimonials ]
+testimonials:
+  title: "Testimonials"
+  items:
+    - image: "assets/img/testimonials/rev1.jpg"
+      name: "Helen Floyd"
+      role: "Art Director"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+    - image: "assets/img/testimonials/rev1.jpg"
+      name: "Helen Floyd"
+      role: "Art Director"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+### Clients [ clients ]
+###clients:
+###  title: "Clients"
+###  items:
+  ###  - url: "https://www.google.com"
+  ###    image: "assets/img/clients/client1.png"
+
+### Custom Text [ text ]
+### text:
+  ###t itle: "Custom Text"
+  ### text:
+
+
+### Contact Info [ contacts-info ]
+contacts_info:
+  title: "Contact us"
+  list:
+    - label: "Phone"
+      icon: "fas fa-phone"
+      value: "+ (231) 456 67 89"
+
+    - label: "Email"
+      icon:  "fas fa-envelope"
+      value: "<a href='mailto:@gmail.com'>@gmail.com</a>"
+
+    - label: "Address"
+      icon: "fas fa-map-marker-alt"
+      value: "Barcelona, Spain"
+      value: "Manchester, United Kingdom"
+
+    - label: "Availability"
+      icon: "fas fa-user-tie"
+      value: "We can accommodate to your needs with a flexible timeline. Contact us to know our current availability."
+
+### Contact Form [ contacts-form ]
+contacts_form:
+  title: "Contact Form"
