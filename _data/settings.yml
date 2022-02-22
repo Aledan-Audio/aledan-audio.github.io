@@ -1,0 +1,21 @@
+# Theme Settings Configuration File
+##
+### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+### Main Settings
+settings:
+  logo_text: "<strong>Aledan</strong> audio"
+  logo_hover_text: ""
+  quick_colors: "yellow" # select quick color schemes: "beige", "blue", "brown", "green_light", "green", "orange", "purple", "red", "yellow_light", "yellow". If empty colors taken from _sass/ryancv/settings.scss
+
+### Portfolio Filters Settings
+portfolio:
+  filters:
+    - name: "Feature film"
+      slug: "f-feature"
+
+    - name: "Short"
+      slug: "f-short"
+
+    - name: "Commercial"
+      slug: "f-commercial"

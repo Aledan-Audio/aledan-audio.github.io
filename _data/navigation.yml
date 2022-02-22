@@ -1,0 +1,35 @@
+# Navigation configuration file
+##
+### to add or remove menu item
+### param "title" - Menu item name
+### param "url" - Menu item url
+### param "button" - if "1" activated button style for menu item
+
+main:
+  # Home
+  - title: "Home"
+    url: "/"
+    button: 0
+    
+  # About
+  - title: "About us"
+    url: "about/"
+    button: 0
+
+  # Services
+  - title: "Services"
+    url: "services/"
+    button: 0
+  
+  # Portfolio
+  - title: "Portfolio"
+    url: "portfolio/"
+    button: 0
+  
+  
+  # Contact
+  - title: "Contact us"
+    url: "contact/"
+    button: 0
+
+
